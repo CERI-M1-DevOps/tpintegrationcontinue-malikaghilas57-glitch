@@ -1,12 +1,12 @@
 name: Java CI with Maven - Test and package"
 
 on: 
-  pull request:
+  pull_request:
     branches: [main]
 
 jobs:
   build:
-    run -on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
