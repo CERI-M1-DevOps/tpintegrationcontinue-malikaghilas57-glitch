@@ -38,7 +38,7 @@ public class ListeSimpleTest {
     @Test
     public void ajoutPlusieursFoisLeMeme() {
         listeATester.ajout(1);
-        listeATes ter.ajout(1);
+        listeATester.ajout(1);
         listeATester.ajout(1);
         assertEquals(3, listeATester.getSize());
     }
